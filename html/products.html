@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Produits & Commandes • Glowvia</title>
+    <link rel="stylesheet" href="../css/products.css">
+    <script src="../js/products.js"></script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container">
+        <!-- Logo cliquable vers Accueil -->
+        <a href="index.html">
+            <img src="../images/glowvia.png" class="logo" alt="Glowvia Logo">
+        </a>
+
+        <!-- Menu de navigation -->
+        <nav class="nav">
+            <a href="index.html">Accueil</a>
+            <a href="register.html">Inscription</a>
+            <a href="products.html" class="active">Produits & Commandes</a>
+        </nav>
+    </div>
+</header>
+
+<!-- SECTION PRODUITS -->
+<section class="products-section">
+    <h2>Nos Produits</h2>
+    <div class="products">
+
+        <!-- Produit 1 -->
+        <div class="product-card">
+            <img src="/images/4.jpg" alt="Glowvia Day Cream SPF 30">
+            <h3>Glowvia Day Cream SPF 30</h3>
+            <p class="price" data-price="45">45 TND</p>
+            <input type="number" min="1" max="99" value="1" class="qty">
+            <button class="add">Ajouter</button>
+        </div>
+
+        <!-- Produit 2 -->
+        <div class="product-card">
+            <img src="/images/2.jpg" alt="Glowvia Vitamin C Night Repair">
+            <h3>Glowvia Vitamin C Night Repair</h3>
+            <p class="price" data-price="55">55 TND</p>
+            <input type="number" min="1" max="99" value="1" class="qty">
+            <button class="add">Ajouter</button>
+        </div>
+
+        <!-- Produit 3 -->
+        <div class="product-card">
+            <img src="/images/3.jpg" alt="Glowvia Vitamin Serum (30ml)">
+            <h3>Glowvia Vitamin Serum (30ml)</h3>
+            <p class="price" data-price="35">35 TND</p>
+            <input type="number" min="1" max="99" value="1" class="qty">
+            <button class="add">Ajouter</button>
+        </div>
+
+        <!-- Produit 4 -->
+        <div class="product-card">
+            <img src="/images/4.jpg" alt="Glowvia Repair Cream">
+            <h3>Glowvia Repair Cream</h3>
+            <p class="price" data-price="60">60 TND</p>
+            <input type="number" min="1" max="99" value="1" class="qty">
+            <button class="add">Ajouter</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- PANIER / COMMANDE -->
+<section class="cart-section">
+    <h2>Votre Panier / Espace de Commande</h2>
+
+    <table id="cartTable">
+        <thead>
+            <tr>
+                <th>Produit</th>
+                <th>Prix Unitaire</th>
+                <th>Quantité</th>
+                <th>Sous-total</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h3 class="total">Total : <span id="totalPrice">0</span> TND</h3>
+
+    <button id="confirm" class="btn">Confirmer la commande</button>
+    <button id="reset" class="btn reset">Réinitialiser</button>
+
+    <p id="msg"></p>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>Contact : <a href="mailto:omarhawarim1@gmail.com">omarhawarim1@gmail.com</a> — WhatsApp : +216-90582863</p>
+    <p>© 2025 Glowvia – Tous droits réservés</p>
+</footer>
+
+</body>
+</html>

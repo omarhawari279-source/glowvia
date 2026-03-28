@@ -1,0 +1,101 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background: #fff5f7;
+    color: #444;
+}
+
+.header {
+    background: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav a {
+    margin-left: 20px;
+    color: #5a5a5a;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav a:hover,
+.nav a.active {
+    color: #d47a9e;
+}
+
+.form-section {
+    width: 60%;
+    margin: 50px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(212, 122, 158, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #d47a9e;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #b66084;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+input:focus {
+    border-color: #d47a9e;
+    outline: none;
+    box-shadow: 0 0 5px #d47a9e;
+}
+
+.check-group, .radio-group, .terms {
+    margin-top: 20px;
+}
+
+.btn {
+    background: #d47a9e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn.reset {
+    background: #999;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+#message {
+    font-weight: bold;
+    margin-top: 20px;
+}

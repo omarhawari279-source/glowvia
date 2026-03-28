@@ -1,0 +1,109 @@
+body { 
+    font-family: "Poppins", sans-serif;
+    background: #fff5f7;
+    margin: 0;
+    color: #444;
+}
+
+.header {
+    background: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.logo { height: 50px; }
+
+.nav a {
+    margin-left: 20px;
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+.nav a:hover,
+.nav a.active { color: #d47a9e; }
+
+/* PRODUITS */
+.products-section { width: 90%; margin: auto; padding: 40px 0; }
+h2 { text-align: center; color: #d47a9e; }
+
+.products { display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 30px; }
+
+.product-card {
+    background: white;
+    width: 230px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(212,122,158,0.2);
+    text-align: center;
+    margin: 10px;
+}
+
+.product-card img { width: 100%; border-radius: 10px; }
+
+.product-card .price { margin: 10px 0; color: #b66084; }
+
+.qty { width: 60px; padding: 5px; margin-bottom: 10px; }
+
+.add {
+    background: #d47a9e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.add:hover { background: #b66084; }
+
+/* PANIER / ESPACE DE COMMANDE */
+.cart-section {
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(212,122,158,0.2);
+    margin-bottom: 50px;
+}
+
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+table thead { background: #ffd6e4; }
+table th, table td { padding: 12px; text-align: center; }
+
+.remove-btn, .cancel-btn {
+    background: #d47a9e;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.remove-btn:hover, .cancel-btn:hover { background: #b66084; }
+
+.total { text-align: right; margin-top: 20px; font-weight: bold; }
+
+.btn {
+    background: #d47a9e;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover { opacity: 0.9; }
+
+.btn.reset { background: #999; }
+
+#msg { font-weight: bold; margin-top: 20px; text-align: center; }
