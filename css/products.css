@@ -11,21 +11,19 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-.container {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    .nav {
+        flex-direction: column;
+    }
 }
+
 
 .logo { height: 50px; }
 
-.nav a {
-    margin-left: 20px;
-    color: #5a5a5a;
-    text-decoration: none;
-}
 
 .nav a:hover,
 .nav a.active { color: #d47a9e; }
@@ -36,12 +34,13 @@ h2 { text-align: center; color: #d47a9e; }
 
 .products { display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 30px; }
 
-..product-card {
+.product-card {
     display: inline-block;
     width: 200px;
     margin: 10px;
     text-align: center;
 }
+
 
 
 .product-card img { width: 100%; border-radius: 10px; }
