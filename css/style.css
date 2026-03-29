@@ -47,15 +47,17 @@ nav {
 .social { background:#e91e63; padding:14px 28px; color:white; border-radius:50px; font-weight:600; margin:6px; display:inline-block; transition:0.3s ease; box-shadow:0 8px 25px rgba(233,30,99,0.3); }
 .social:hover { background:#ad1457; transform:translateY(-4px); }
 
-/* FOOTER */
-.footer { background:#c2185b; color:#fff; padding:40px 20px; text-align:center; font-family: "Poppins", sans-serif; }
-.footer a { color:#ffd6e0; text-decoration:none; font-weight:500; transition:0.3s;}
-.footer a:hover { color:#fff; text-shadow:0 2px 8px rgba(0,0,0,0.3);}
-.footer-contacts p { margin-bottom:20px; font-size:16px; }
-.footer-socials { margin-bottom:20px; }
-.footer-socials .social { display:inline-block; margin:0 10px; padding:10px 25px; border-radius:50px; background:#e91e63; color:white; font-weight:600; transition:0.3s ease; box-shadow:0 8px 20px rgba(0,0,0,0.2);}
-.footer-socials .social:hover { background:#ad1457; transform:translateY(-3px); }
-.footer-copy { font-size:14px; color:#ffd6e0; }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+footer .social a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
 
 /* RESPONSIVE */
 @media(max-width:900px){ .hero{flex-direction:column;text-align:center;} .hero-text,.hero-image{width:100%; margin-bottom:20px;} }
