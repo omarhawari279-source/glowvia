@@ -1,6 +1,11 @@
 /* GLOBAL */
 * { margin:0; padding:0; box-sizing:border-box; }
 body { font-family:"Poppins", sans-serif; background:#fff0f5; color:#333; line-height:1.7; }
+#homepage {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
 
 h1,h2,h3 { color:#c2185b; font-weight:700; }
 a { text-decoration:none; transition:0.3s ease; }
