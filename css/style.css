@@ -7,6 +7,9 @@ a { text-decoration:none; transition:0.3s ease; }
 nav {
   background: #fff;
 }
+nav {
+  display: flex;
+}
 
 
 /* HEADER */
