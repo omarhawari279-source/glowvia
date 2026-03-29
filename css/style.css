@@ -11,6 +11,7 @@ a { text-decoration:none; transition:0.3s ease; }
 .logo { height:60px; cursor:pointer; }
 .nav a { margin-left:25px; font-weight:500; color:#5a5a5a; font-size:16px; }
 .nav a:hover, .nav a.active { color:#d81b60; transform:translateY(-2px); }
+/* homepage style */
 
 /* HERO */
 .hero { display:flex; justify-content:space-between; align-items:center; padding:80px 10%; background: linear-gradient(120deg, #ffe3ed 0%, #fff 60%); flex-wrap:wrap; }
