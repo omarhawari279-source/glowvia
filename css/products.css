@@ -36,15 +36,13 @@ h2 { text-align: center; color: #d47a9e; }
 
 .products { display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 30px; }
 
-.product-card {
-    background: white;
-    width: 230px;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(212,122,158,0.2);
-    text-align: center;
+..product-card {
+    display: inline-block;
+    width: 200px;
     margin: 10px;
+    text-align: center;
 }
+
 
 .product-card img { width: 100%; border-radius: 10px; }
 
