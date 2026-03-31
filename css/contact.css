@@ -140,32 +140,3 @@
   background: #fff7f7;
 }
 
-@media (max-width: 900px) {
-  .contact-hero-text h1 {
-    font-size: 38px;
-  }
-
-  .contact-wrapper {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 600px) {
-  .form-row {
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .contact-hero {
-    padding: 60px 8%;
-  }
-
-  .contact-section {
-    padding: 50px 8%;
-  }
-
-  .contact-info-card,
-  .contact-form-card {
-    padding: 25px;
-  }
-}
