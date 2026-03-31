@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact • Glowvia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../css/contact.css" />
+  <!-- <link rel="stylesheet" href="../css/style.css" /> -->
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html">
+        <img src="../images/glowvia.png" alt="Glowvia Logo" class="logo" />
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Accueil</a>
+        <a href="register.html">Inscription</a>
+        <a href="products.html">Produits & Commandes</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTACT HERO -->
+  <section class="contact-hero">
+    <div class="contact-hero-text">
+      <h1>Contactez Glowvia</h1>
+      <p>
+        Une question sur nos produits, votre commande ou un conseil beauté ?
+        Notre équipe est là pour vous aider.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+    <div class="contact-wrapper">
+
+      <div class="contact-info-card">
+        <h2>Nos coordonnées</h2>
+        <p>
+          Nous sommes disponibles pour répondre à vos questions et vous guider
+          dans le choix de vos soins Glowvia.
+        </p>
+
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <h3>Email</h3>
+            <p>omarhawarim1@gmail.com</p>
+          </div>
+
+          <div class="contact-info-item">
+            <h3>Téléphone / WhatsApp</h3>
+            <p>+216 90 582 863</p>
+          </div>
+
+          <div class="contact-info-item">
+            <h3>Adresse</h3>
+            <p>Tunis, Tunisie</p>
+          </div>
+
+          <div class="contact-info-item">
+            <h3>Horaires</h3>
+            <p>Lundi - Samedi : 9h00 à 18h00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-card">
+        <h2>Envoyez-nous un message</h2>
+
+        <form id="contactForm" class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nom complet</label>
+              <input type="text" id="name" name="name" placeholder="Votre nom complet" />
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Adresse email</label>
+              <input type="email" id="email" name="email" placeholder="votre@email.com" />
+              <small class="error-message"></small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" />
+            <small class="error-message"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Écrivez votre message ici..."></textarea>
+            <small class="error-message"></small>
+          </div>
+
+          <button type="submit" class="btn-primary">Envoyer le message</button>
+
+          <p id="formSuccess" class="success-message"></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-contacts">
+      <p>
+        Contact :
+        <a href="mailto:omarhawarim1@gmail.com">omarhawarim1@gmail.com</a>
+        —
+        <a href="https://wa.me/21690582863" target="_blank">WhatsApp : +216-90582863</a>
+      </p>
+    </div>
+
+    <div class="footer-socials">
+      <a href="#" class="social">Facebook</a>
+      <a href="#" class="social">Instagram</a>
+      <a href="mailto:omarhawarim1@gmail.com" class="social">Email</a>
+    </div>
+
+    <p class="footer-copy">© 2025 Glowvia – Tous droits réservés</p>
+  </footer>
+
+  <script src="../js/contact.js"></script>
+</body>
+</html>
