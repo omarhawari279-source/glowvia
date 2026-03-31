@@ -30,6 +30,16 @@
     <!-- SECTION PRODUITS -->
     <section class="products-section">
         <h2>Nos Produits</h2>
+        <div class="products-toolbar">
+            <input type="text" id="searchInput" placeholder="Rechercher un produit...">
+
+            <select id="categoryFilter">
+                <option value="all">Toutes les catégories</option>
+                <option value="cream">Crèmes</option>
+                <option value="serum">Sérums</option>
+                <option value="night">Soins de nuit</option>
+            </select>
+        </div>
         <div class="products">
 
             <!-- Produit 1 -->
@@ -100,7 +110,7 @@
             </div>
 
             <!-- Produit 4 -->
-            <div class="product-card">
+            <div class="product-card" data-name="Glowvia Day Cream SPF 30" data-category="cream">
                 <div class="product-img">
                     <img src="../images/4.jpg" alt="Glowvia Day Cream SPF 30">
                     <span class="badge">New</span>

@@ -37,6 +37,29 @@ addButtons.forEach((btn, index) => {
     });
 });
 
+const searchInput = document.getElementById("searchInput");
+const categoryFilter = document.getElementById("categoryFilter");
+const productCards = document.querySelectorAll(".product-card");
+
+function filterProducts() {
+    const searchValue = searchInput.value.toLowerCase().trim();
+    const selectedCategory = categoryFilter.value;
+
+    productCards.forEach((card) => {
+        const productName = card.dataset.name.toLowerCase();
+        const productCategory = card.dataset.category;
+
+        const matchesSearch = productName.includes(searchValue);
+        const matchesCategory =
+            selectedCategory === "all" || productCategory === selectedCategory;
+
+        card.style.display = matchesSearch && matchesCategory ? "block" : "none";
+    });
+}
+
+searchInput.addEventListener("input", filterProducts);
+categoryFilter.addEventListener("change", filterProducts);
+
 // METTRE À JOUR LE PANIER
 function updateCart() {
     rows.innerHTML = "";
