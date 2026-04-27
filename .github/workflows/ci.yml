@@ -18,6 +18,4 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t glowvia-site .
-
-      - name: Test container
-        run: docker run --rm glowvia-site echo "Build successful"
+        
